@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+    background-color: #F8F9FA; /* Soft gray */
+    font-family: 'Rubik', sans-serif;
+}
+
+.blue{
+  color:#007bff ;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Accent blue */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #64B5F6; /* Darker blue for hover */
+}
+
+table {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table thead {
+    background-color: #64B5F6;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.bungkus{
+  width: 100%;
+  height: 100vh;
+  margin: 10px;
+}
+
+/* .container {
+    max-width: 900px;
+    margin: auto;
+} */
+
+/* .footer {
+    background-color: #5c6bc0; Warna soft
+    color: #6c757d;
+    border-top: 1px solid #e9ecef;
+} */
+
+/* footer a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.footer a:hover {
+    color: #007bff; Warna hover
+} */
